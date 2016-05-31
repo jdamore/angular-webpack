@@ -1,8 +1,8 @@
 import { expect } from 'chai';
-import ExampleParentController from './ExampleParentController';
+import ExampleController from './ExampleController';
 
-describe('ExampleParentController', () =>{
+describe('ExampleController', () => {
   it('greets the world', () => {
-    expect(new ExampleParentController().greeting).to.equal('Hello world!');
+    expect(new ExampleController().greeting).to.equal('Hello world!');
   });
 });

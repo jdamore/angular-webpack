@@ -1,5 +1,5 @@
 export default class ExampleParentController {
-  constructor () {
-    this.greeting = "Hello world!";
+  constructor() {
+    this.greeting = 'Hello world!';
   }
 }
