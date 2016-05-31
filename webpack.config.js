@@ -18,6 +18,9 @@ module.exports = {
       compress: {
         warning: false,
       },
+      mangle: {
+        except: ['$super', '$', 'exports', 'require',]
+      },
     }),
   ],
 };
