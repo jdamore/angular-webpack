@@ -16,7 +16,7 @@ module.exports = {
     new webpack.optimize.UglifyJsPlugin({
       exclude: /\.spec.js?$|node_modules/,
       compress: {
-        warning: false,
+        warnings: false,
       },
       mangle: {
         except: ['$super', '$', 'exports', 'require',]

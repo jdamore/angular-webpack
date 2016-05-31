@@ -2,3 +2,5 @@
 *.iml
 bundle
 *.log
+node_modules
+.tmp

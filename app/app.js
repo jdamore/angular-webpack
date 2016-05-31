@@ -1,5 +1,5 @@
 import angular from 'angular';
-import exampleParent from './example-parent/exampleParent';
+import example from './example/example';
 
 export default angular.module('app', [])
-  .component('exampleParent', exampleParent)
+  .component('example', example)
