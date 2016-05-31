@@ -1,0 +1,4 @@
+--colors
+--webpack-config webpack.config.test.js
+--reporter nyan
+app/**/*.spec.js
