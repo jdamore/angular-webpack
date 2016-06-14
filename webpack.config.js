@@ -8,6 +8,12 @@ module.exports = {
   },
   module: {
     loaders: [
+      // CSS Loader: style-loader, css-loader, sass-loader
+      { 
+        test: /\.scss$/, 
+        exclude: /node_modules/,
+        loaders: ['style', 'css', 'sass']
+      },
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
       { test: /\.html$/, exclude: /node_modules/, loader: 'html-loader' },
     ]

@@ -1,0 +1,12 @@
+
+@media (max-width: 767px) {
+  .bw-component {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .bw-component {
+    font-size: 5vw;
+  }
+}

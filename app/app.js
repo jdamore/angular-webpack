@@ -1,7 +1,11 @@
 import angular from 'angular';
-import example from './example/example';
-import tracker from './tracker/tracker';
+import status from './status';
+import broker from './broker';
+import detail from './detail';
+import tracker from './tracker';
 
 angular.module('my-app', [])
-.component('example', example)
-.component('tracker', tracker);
+.component('tracker', tracker)
+.component('status', status)
+.component('broker', broker)
+.component('detail', detail);
