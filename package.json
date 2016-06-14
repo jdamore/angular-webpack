@@ -4,13 +4,17 @@
   "description": "",
   "main": "bundle/bundle.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "build": "webpack --progress",
     "build:watch": "webpack --progress --watch",
     "test": "mocha-webpack",
     "test:watch": "mocha-webpack --watch",
     "lint": "eslint app"
   },
-  "pre-commit": ["test", "lint"],
+  "pre-commit": [
+    "test",
+    "lint"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -29,7 +33,8 @@
     "pre-commit": "^1.1.3",
     "sinon": "2.0.0-pre",
     "uglify-loader": "^1.3.0",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "angular": "^1.5.5"

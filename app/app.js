@@ -1,5 +1,7 @@
 import angular from 'angular';
 import example from './example/example';
+import tracker from './tracker/tracker';
 
-export default angular.module('app', [])
-  .component('example', example);
+angular.module('my-app', [])
+.component('example', example)
+.component('tracker', tracker);
